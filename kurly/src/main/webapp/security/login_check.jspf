@@ -1,0 +1,17 @@
+<%@page import="project.dto.MemberDTO"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%-- 비로그인 사용자인 경우 에러메세지 출력페이지(error_400.jsp)로 이동 처리하는 JSPF 파일 --%>    
+<%
+	//세션에 저장된 권한 관련 정보(회원정보)를 반환받아 저장
+	MemberDTO loginMember=(MemberDTO)session.getAttribute("loginMember");
+
+	//비로그인 사용자인 경우 - 비정상적인 요청에 대한 응답 처리
+	if(loginMember==null) {
+		//에러페이지로 이동
+		out.println("<script type='text/javascript'>");
+		out.println("location.href='index.jsp?folder=error&category=error_400';");
+		out.println("</script>");
+		return;		
+	}
+%>

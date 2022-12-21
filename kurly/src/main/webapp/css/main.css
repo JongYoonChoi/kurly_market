@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+.container_banner {
+	max-width: 1900px;
+	margin: 0px auto;
+}
+
+.slick_slide button.slick-prev {
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	left: 50px;
+	width: 52px;
+	height: 52px;
+	transform: translateY(-50%);
+	border-radius: 100%;
+	opacity: 1;
+	border: none;
+	color: transparent;
+	background:
+		url(https://s3.ap-northeast-2.amazonaws.com/res.kurly.com/kurly/ico/2021/arrow_banner_left_52_52.svg)
+		50% 50% no-repeat;
+}
+
+.slick_slide button.slick-next {
+	position: absolute;
+	z-index: 10;
+	top: 50%;
+	right: 50px;
+	transform: translateY(-50%);
+	width: 52px;
+	height: 52px;
+	border-radius: 100%;
+	color: transparent;
+	opacity: 1;
+	border: none;
+	background:
+		url(https://s3.ap-northeast-2.amazonaws.com/res.kurly.com/kurly/ico/2021/arrow_banner_right_52_52.svg)
+		50% 50% no-repeat;
+	cursor: pointer;
+}
+
+.product {
+	position: relative;
+	width: 249px !important;
+	height: 320px;
+}
+
+.product .cart {
+	background:
+		url(https://s3.ap-northeast-2.amazonaws.com/res.kurly.com/kurly/ico/2021/cart_white_45_45.svg)
+		50% 50% no-repeat;
+	cursor: pointer;
+}
+
+.product img.cart {
+	position: absolute;
+	z-index: 10;
+	top: 80%;
+	right: 2%;
+	width: 52px;
+	height: 52px;
+	border-radius: 100%;
+	opacity: 0.7;
+	border: none;
+}
+
+.recommend-head {
+	margin-bottom: 27px;
+	margin-top: 70px;
+	display: flex;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	align-items: center;
+}
+
+.head {
+	color: rgb(51, 51, 51);
+	font-size: 28px;
+	line-height: 1.15;
+	letter-spacing: -0.26px;
+	font-weight: 600;
+}
+
+.product img.product_img {
+	width: 249px;
+	height: 320px;
+}
+
+.description_list a.product_name {
+	font-size: 16px;
+	line-height: 1.45;
+	color: rgb(51, 51, 51);
+	font-weight: 400;
+	margin-bottom: 8px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	letter-spacing: normal;
+	word-break: break-all;
+	overflow-wrap: break-word;
+	text-decoration-line: none;
+	width: 100%;
+}
+
+.product_calcu .coupon {
+	color: rgb(250, 98, 47);
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 1.5;
+	white-space: nowrap;
+	margin-right: 7px;
+}
+
+.product_calcu .price {
+	color: rgb(51, 51, 51);
+	font-size: 16px;
+	font-weight: 800;
+	line-height: 1.5;
+	white-space: nowrap;
+}
+
+.product_calcu {
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.selling_price {
+	color: rgb(153, 153, 153);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: normal;
+	text-decoration: line-through;
+	margin-top: 2px;
+}
+
+.recommend-container {
+	width: 1050px;
+	margin: 0px auto;
+}
+
+.slick-slider {
+	position: relative;
+}
+
+.slick-slider13 button.slick-prev {
+	position: absolute;
+	z-index: 10;
+	top: 40%;
+	left: -27px;
+	transform: translateY(-50%);
+	width: 52px;
+	height: 52px;
+	border-radius: 100%;
+	opacity: 1;
+	border: none;
+	color: transparent;
+	background:
+		url(https://s3.ap-northeast-2.amazonaws.com/res.kurly.com/kurly/ico/2021/arrow_list_left_60_60.svg)
+		50% 50% no-repeat;
+	content:
+		url(https://s3.ap-northeast-2.amazonaws.com/res.kurly.com/kurly/ico/2021/arrow_list_left_over_60_60.svg);
+	transition: background 0.5s ease 0s;
+}
+
+.slick-slider13 button.slick-next {
+	position: absolute;
+	z-index: 10;
+	top: 40%;
+	right: -15px;
+	transform: translateY(-50%);
+	width: 52px;
+	height: 52px;
+	border-radius: 100%;
+	color: transparent;
+	opacity: 1;
+	border: none;
+	background:
+		url(https://s3.ap-northeast-2.amazonaws.com/res.kurly.com/kurly/ico/2021/arrow_list_right_60_60.svg)
+		50% 50% no-repeat;
+	content:
+		url(https://s3.ap-northeast-2.amazonaws.com/res.kurly.com/kurly/ico/2021/arrow_list_right_over_60_60.svg);
+	transition: background 0.5s ease 0s;
+}
+
+.slick-dots {
+	position: absolute;
+	bottom: -60px;
+	left: 45%;
+}
+
+.slick-dots li {
+	float: left;
+	list-style: none;
+}
+
+.slick-dots li button {
+	display: none;
+}
+
+.third_slick button.slick-prev {
+	position: absolute;
+	z-index: 10;
+	top: 40%;
+	left: -27px;
+	transform: translateY(-50%);
+	width: 52px;
+	height: 52px;
+	border-radius: 100%;
+	opacity: 1;
+	border: none;
+	color: transparent;
+	background:
+		url(https://s3.ap-northeast-2.amazonaws.com/res.kurly.com/kurly/ico/2021/arrow_list_left_60_60.svg)
+		50% 50% no-repeat;
+	content:
+		url(https://s3.ap-northeast-2.amazonaws.com/res.kurly.com/kurly/ico/2021/arrow_list_left_over_60_60.svg);
+	transition: background 0.5s ease 0s;
+}
+
+.third_slick button.slick-next {
+	position: absolute;
+	z-index: 10;
+	top: 40%;
+	right: -15px;
+	transform: translateY(-50%);
+	width: 52px;
+	height: 52px;
+	border-radius: 100%;
+	color: transparent;
+	opacity: 1;
+	border: none;
+	background:
+		url(https://s3.ap-northeast-2.amazonaws.com/res.kurly.com/kurly/ico/2021/arrow_list_right_60_60.svg)
+		50% 50% no-repeat;
+	content:
+		url(https://s3.ap-northeast-2.amazonaws.com/res.kurly.com/kurly/ico/2021/arrow_list_right_over_60_60.svg);
+	transition: background 0.5s ease 0s;
+}
+
+
